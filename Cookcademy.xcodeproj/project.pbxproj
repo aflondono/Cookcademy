@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4195608A29D927EB007E9881 /* RecipeCategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4195608929D927EB007E9881 /* RecipeCategoryGridView.swift */; };
 		41AFF38329D45BC00069A943 /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AFF38229D45BC00069A943 /* RecipeData.swift */; };
 		41B7414B29CDBF3100DB416D /* CookcademyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B7414A29CDBF3100DB416D /* CookcademyApp.swift */; };
 		41B7414D29CDBF3100DB416D /* RecipesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B7414C29CDBF3100DB416D /* RecipesListView.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4195608929D927EB007E9881 /* RecipeCategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCategoryGridView.swift; sourceTree = "<group>"; };
 		41AFF38229D45BC00069A943 /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
 		41B7414729CDBF3100DB416D /* Cookcademy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cookcademy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B7414A29CDBF3100DB416D /* CookcademyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookcademyApp.swift; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 			children = (
 				41B7414C29CDBF3100DB416D /* RecipesListView.swift */,
 				41E0E87929D5A9E50067CC68 /* RecipeDetailView.swift */,
+				4195608929D927EB007E9881 /* RecipeCategoryGridView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				41DF5B6129D70A2200CAD235 /* AppColor.swift in Sources */,
 				41AFF38329D45BC00069A943 /* RecipeData.swift in Sources */,
 				41B7414B29CDBF3100DB416D /* CookcademyApp.swift in Sources */,
+				4195608A29D927EB007E9881 /* RecipeCategoryGridView.swift in Sources */,
 				41B7415B29CDCC4400DB416D /* AllRecipes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
