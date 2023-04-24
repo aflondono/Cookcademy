@@ -18,6 +18,7 @@
 		41C53D8C29DC220A00357C5A /* ModifyRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C53D8B29DC220A00357C5A /* ModifyRecipeView.swift */; };
 		41DF5B6129D70A2200CAD235 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DF5B6029D70A2200CAD235 /* AppColor.swift */; };
 		41E0E87A29D5A9E50067CC68 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0E87929D5A9E50067CC68 /* RecipeDetailView.swift */; };
+		41F1A54C29F66B3200FB4AF0 /* ModifyMainInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1A54B29F66B3200FB4AF0 /* ModifyMainInformationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		41C53D8B29DC220A00357C5A /* ModifyRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyRecipeView.swift; sourceTree = "<group>"; };
 		41DF5B6029D70A2200CAD235 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
 		41E0E87929D5A9E50067CC68 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		41F1A54B29F66B3200FB4AF0 /* ModifyMainInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyMainInformationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				41C53D8B29DC220A00357C5A /* ModifyRecipeView.swift */,
+				41F1A54B29F66B3200FB4AF0 /* ModifyMainInformationView.swift */,
 			);
 			path = ModifyRecipes;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			files = (
 				41B7415929CDC14F00DB416D /* Recipe.swift in Sources */,
 				41E0E87A29D5A9E50067CC68 /* RecipeDetailView.swift in Sources */,
+				41F1A54C29F66B3200FB4AF0 /* ModifyMainInformationView.swift in Sources */,
 				41B7414D29CDBF3100DB416D /* RecipesListView.swift in Sources */,
 				41DF5B6129D70A2200CAD235 /* AppColor.swift in Sources */,
 				41C53D8C29DC220A00357C5A /* ModifyRecipeView.swift in Sources */,
