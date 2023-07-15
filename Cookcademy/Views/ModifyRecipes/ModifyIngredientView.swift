@@ -7,12 +7,22 @@
 
 import SwiftUI
 
-struct ModifyIngredientView: View {
+struct ModifyIngredientView: ModifyComponentView {
     // Because the `ModifyIngredientView` gets its ingredient from a different
     // view, update its ingredient to be a `@Binding` instead of a `@State`
     // property.
     @Binding var ingredient: Ingredient
     let createAction: ((Ingredient) -> Void)
+    
+    // When defining the initializer, init(component:createAction:),
+    // we’ll want to be able to assign a value to the ingredient property
+    // marked with the @Binding property wrapper. We can do that by adding a leading underscore.
+    // self._ingredient is of type Binding<Ingredient> and can be assigned
+    // to the binding passed into the initializer.
+    init(component: Binding<Ingredient>, createAction: @escaping (Ingredient) -> Void) {
+        self._ingredient = component
+        self.createAction = createAction
+    }
     
     //@Environment(\.presentationMode) private var mode
     // The line above, in the tutorial, is deprecated. Use the one below:
@@ -78,7 +88,7 @@ struct ModifyIngredientView_Previews: PreviewProvider {
     @State static var emptyIngredient = Ingredient()
     
     static var previews: some View {
-        ModifyIngredientView(ingredient: $emptyIngredient) { ingredient in
+        ModifyIngredientView(component: $emptyIngredient) { ingredient in
             print(ingredient)
         }
     }
